@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WealthSeva</title>
+
+  <!--Icons-->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon.png">
+  <link rel="apple-touch-icon-precomposed" sizes="180x180" href="assets/img/favicon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/img/favicon.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon.png">
+
+  <link rel="mask-icon" href="assets/img/favicon.png">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="assets/img/favicon.png">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
+
+  <!-- CSS References -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/plugins/carousel/owl.carousel.min.css" />
+  <link rel="stylesheet" href="assets/plugins/scroll_animation/scroll-animation.css" />
+  <link rel="stylesheet" href="assets/css/common.css" />
+  <link rel="stylesheet" href="assets/css/header.css" />
+  <link rel="stylesheet" href="assets/css/footer.css" />
+  <link rel="stylesheet" href="assets/css/home.css" />
+  <link rel="stylesheet" href="assets/css/contact.css" />
+
+  <!-- JS References -->
+  <script src="assets/js/jquery.js "></script>
+
+  <!-- Icons References -->
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+
+  <!--Header Section Starts-->
+  <div include="header.html"></div>
+  <!--Header Section Ends-->
+
+
+  <!-- Banner Section Starts -->
+  <section id="contact-banner" class="d-flex align-items-center position-relative" data-aos="fade-up"
+    data-aos-delay="400">
+    <div class="banner-overlay d-flex align-items-center">
+      <div class="container ">
+
+        <div class="banner-text d-flex flex-column justify-content-center align-items-center">
+          <h1>
+            <span class="bold">Contact Us</span>
+          </h1>
+          <p>
+            <a href="/" style="color:#eee">Home</a> / Contact Us
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- Banner Section Ends -->
+
+  <!--Contact Form Starts-->
+  <section id="contact-form">
+    <div class="container p-sm-5">
+      <div class="row d-flex justify-content-center align-items-center g-5">
+        <div class="col-md-6" data-aos="fade-right" data-aos-delay="400">
+          <div class="contact-info">
+            <h4 class="supporting-title position-relative">Lorem ipsum</h4>
+            <h2 class="section-title"><span class="bold">Contact</span> Details</h2>
+            <div class="contact-details d-flex align-items-start gap-3 mt-4">
+              <i class='bx bx-map bx-sm'></i>
+              <div class="contact_info_content">
+                <h5 class="contact_info_title">Corporate Office</h5>
+                <p>Flat No 03, Abhijit Society, Opp Bank of Baroda,<br> B/H Dashabhuja Ganpati, Paud Road Flyover,
+                  <br> Erandwane, Pune - 411038
+                </p>
+              </div>
+            </div>
+
+            <div class="contact-details d-flex align-items-start gap-3 mt-4">
+              <i class='bx bx-envelope bx-sm'></i>
+              <div class="contact_info_content">
+                <h5 class="contact_info_title">Email</h5>
+                <span class="d-flex flex-column">
+                  <a href="mailto:sevak@wealthseva.com">sevak@wealthseva.com</a>
+                  <a href="mailto:investindream@gmail.com">investindream@gmail.com</a>
+                </span>
+              </div>
+            </div>
+            <div class="contact-details d-flex align-items-start gap-3 mt-4">
+              <i class='bx bx-phone bx-sm'></i>
+              <div class="contact_info_content">
+                <h5 class="contact_info_title">Call Us</h5>
+                <span class="d-flex flex-column">
+                  <a href="tel:+919420156464">+91 94201 56464</a>
+                  <a href="tel:+919834952977">+91 98349 52977</a>
+                </span>
+              </div>
+            </div>
+            <!-- Contact Item -->
+
+          </div>
+
+        </div>
+        <div class="col-md-6" data-aos="fade-left" data-aos-delay="400">
+          <div class="container contact-form">
+            <h2>Let's Talk</h2>
+            <p class="mt-2">Looking For Quick Solution? Fill the details.. Our Team Will Get In Touch Soon.</p>
+            <form action="" method="POST" enctype="multipart/form-data" class="mt-3">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input type="text" class="form-control" id="username" placeholder="User Name *">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input type="text" class="form-control" id="refer" placeholder="Referred By *">
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input type="tel" class="form-control" id="mobile" placeholder="Mobile Number *">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input type="email" class="form-control" id="email" placeholder="Email Address *">
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <textarea id="form_message" name="message" class="form-control" placeholder="Service Request *" rows="4"
+                  required data-error="Please,leave us a message."></textarea>
+                <div class="help-block with-errors"></div>
+              </div>
+              <button type="submit" style="border:0px;" class="primary-btn"><span class="d-flex align-items-center">Get
+                  a Callback &nbsp; <img src="assets/img/right-arrow.png" alt="arrow"> </span></button>
+            </form>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Contact Form Ends-->
+
+  <!--Map section starts-->
+  <section id="map" data-aos="fade-up" data-aos-delay="400">
+    <div class="container">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.5330486208463!2d73.8202456791821!3d18.504798737684055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf05ba83c0b1%3A0xafbadf4b2c632529!2sWealthseva.com!5e0!3m2!1sen!2sin!4v1724492839137!5m2!1sen!2sin"
+        width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" style="border-radius: 8px;"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </section>
+  <!--Map section ends-->
+
+  <!--CTA Section starts-->
+  <section id="cta" class="mt-5 pt-5 pb-5">
+    <div class="container col-md-5">
+      <h2 class="section-title inverse text-center">What are you <span class="bold">waiting for?</span></h2>
+      <p class="inverse text-center">Varius aliquet nulla quibusdam eu odio natus wisi eget, lectus Nam consequuntur
+        urna lectus commodo laboriosam Ridiculus lectus laboriosam.</p>
+      <div class="d-flex justify-content-center mt-4">
+        <a href="packages.html" class="primary-btn "><span class="d-flex align-items-center">Check our Packages &nbsp;
+            <img src="assets/img/right-arrow.png" alt="arrow"></span></a>
+      </div>
+    </div>
+  </section>
+  <!--CTA Section ends-->
+
+  <!--Footer Section Starts-->
+  <div include="footer.html"></div>
+  <!--Footer Section Ends-->
+
+  <!-- JS References -->
+  <script src="assets/js/bootstrap.min.js "></script>
+  <script src="assets/plugins/carousel/owl.carousel.min.js"></script>
+  <script src="assets/plugins/scroll_animation/scroll-animation.js"></script>
+  <script src="assets/js/common.js"></script>
+  <script src="assets/js/header.js"></script>
+  <script src="assets/js/home.js"></script>
+  <script src="assets/js/arrow.js"></script>
+  <script>
+    window.onload = function () {
+      $(".home").removeClass("active");
+      $(".contactus").addClass("active");
+    }
+  </script>
+
+</body>
+
+</html>
